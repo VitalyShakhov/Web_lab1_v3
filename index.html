@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Что-то для тебя</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/shop.js"></script>
+</head>
+
+<body style = "background-color: lightblue">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Главная</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="html/about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="html/services.html">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="html/contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead"><em>Настольный</em> рай</p>
+				        <br>
+				        <h3>
+                  <a href="" class="cart-link" data-toggle="modal"    data-target="#Cart"> Корзина </a> 
+                </h3>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="img/first_img.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/second_img.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/third_img.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/best_racket.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">5800 ₽</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FirstGoodModal">Ракетка Stiga Infinity</a>
+                                </h4>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">48 отзывов</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/middle_racket.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">1300 ₽</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#SecondGoodModal">Ракетка <br>Torneo Stormx</a>
+                                </h4>
+                                <p>Ракетка для настольного тенниса с повышенной ударопрочностью. Идеально подходит для игры на открытом воздухе.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 отзывов</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/worst_racket.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">1000 ₽</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#ThirdGoodModal">Ракетка Torneo <br>Competition</a>
+                                </h4>
+                                <p>Ракетка для начинающих игроков. Подходит для отработки вращения на низких скоростях.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 отзывов</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/net.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">3980 ₽</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FourthGoodModal">Сетка "Galaxy"</a>
+                                </h4>
+                                <p>Профессиональная сетка с мощными металлическими кронштейнами и удобной регулировкой по высоте.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 отзывов</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/balls.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">1100 ₽</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FifthGoodModal">Мячи DHS DJ40+</a>
+                                </h4>
+                                <p>Мячи премиум качества, являются официальными мячами серии профессиональных турниров WTT. В упаковке 6 мячей.</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">21 отзыв</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+	
+	<div class="modal fade" id="FirstGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product1</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(1).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-1"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="SecondGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product2</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(2).jpg"
+        <p>*description* &hellip;</p> 
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-2"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<div class="modal fade" id="ThirdGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product3</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(3).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-3"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FourthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product4</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(4).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-4"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FifthGoodModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Product5</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(5).jpg"
+        <p>*description* &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-5"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<div class="modal fade" id="Cart">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Cart</h4>
+      </div>
+      <div class="modal-body cart-body">
+	
+      </div>
+      <div class="modal-footer">
+	  		<button type="button" class="btn btn-default btn-close" OnClick="clearCart(); $('.cart-body').html('');"> Clear cart </button>
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-order">Order</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    
+
+</body>
+
+</html>
